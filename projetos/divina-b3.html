@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Divina B3 · AI Copilot Anti-Tilt · Estudo de caso · José Junior</title>
+<meta name="description" content="Simulador de mercado que mede o risco comportamental do operador com um score auditável e aciona uma trava de ordens antes que o prejuízo se acumule. Estudo de caso com parâmetros, validação e limitações.">
+<link rel="canonical" href="https://jjrportifolio.vercel.app/projetos/divina-b3">
+<meta name="theme-color" content="#0a0c0f">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:site_name" content="José Francisco Gonçalves Junior">
+<meta property="og:title" content="Divina B3 · AI Copilot Anti-Tilt · Estudo de caso · José Junior">
+<meta property="og:description" content="Simulador de mercado que mede o risco comportamental do operador com um score auditável e aciona uma trava de ordens antes que o prejuízo se acumule. Estudo de caso com parâmetros, validação e limitações.">
+<meta property="og:url" content="https://jjrportifolio.vercel.app/projetos/divina-b3">
+<meta property="og:image" content="https://jjrportifolio.vercel.app/img/divina-b3.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="../favicon.svg">
+<link rel="stylesheet" href="../css/styles.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#conteudo">Ir para o conteúdo</a>
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="../" aria-label="José Junior, página inicial"><svg class="flor" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(0 32 32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(60 32 32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(120 32 32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(180 32 32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(240 32 32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(300 32 32)"/><g class="in"><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(30 32 32) translate(32 32) scale(.6) translate(-32 -32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(90 32 32) translate(32 32) scale(.6) translate(-32 -32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(150 32 32) translate(32 32) scale(.6) translate(-32 -32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(210 32 32) translate(32 32) scale(.6) translate(-32 -32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(270 32 32) translate(32 32) scale(.6) translate(-32 -32)"/><path class="pt" d="M32 33C23 29 20 17 27 9.5C29.5 7 34.5 7 37 9.5C44 17 41 29 32 33Z" transform="rotate(330 32 32) translate(32 32) scale(.6) translate(-32 -32)"/></g><circle class="ct" cx="32" cy="32" r="5.2"/></svg><span>José Junior</span></a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+    <nav id="menu" class="nav" aria-label="Principal">
+      <a href="../#projetos">Projetos</a>
+      <a href="../#competencias">Competências</a>
+      <a href="../#sobre">Sobre</a>
+      <a class="btn sm primary" href="../#contato">Contato</a>
+    </nav>
+  </div>
+</header>
+<main id="conteudo">
+<div class="wrap">
+  <nav class="crumbs mono" aria-label="Você está em"><a href="../">Início</a><span aria-hidden="true">/</span><a href="../#projetos">Projetos</a><span aria-hidden="true">/</span><span aria-current="page">Divina B3</span></nav>
+  <header class="phead">
+    <p class="eyebrow mono">Software · Finanças comportamentais</p>
+    <h1>Divina B3 · AI Copilot Anti-Tilt</h1>
+    <p class="sub">Simulador de mercado que mede o risco comportamental do operador com um score auditável e aciona uma trava de ordens antes que o prejuízo se acumule.</p>
+    <div class="actions"><a class="btn primary lg" href="https://divinab3.vercel.app/" target="_blank" rel="noopener noreferrer">Abrir demonstração <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="sr"> (abre em nova aba)</span></a><a class="btn" href="#evidencia">Ver natureza da evidência</a></div>
+  </header>
+  <figure class="stage solo">
+    <a class="stage-link" href="https://divinab3.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Abrir a demonstração ao vivo de Divina B3 em nova aba">
+      <span class="tick tl" aria-hidden="true"></span><span class="tick tr" aria-hidden="true"></span><span class="tick bl" aria-hidden="true"></span><span class="tick br" aria-hidden="true"></span>
+      <img src="../img/divina-b3-1280.webp" srcset="../img/divina-b3-640.webp 640w, ../img/divina-b3-1280.webp 1280w" sizes="(min-width: 1180px) 1180px, 100vw" width="1280" height="720" alt="Painel Anti-Tilt do Divina B3: nível de risco emocional 100/100 (Crítico), score decomposto em quatro sinais e trava de segurança com contagem regressiva." fetchpriority="high" decoding="async">
+    </a>
+    <figcaption class="mono">Fig. Painel Anti-Tilt: score 100/100 decomposto por sinal e trava de 15 minutos.</figcaption>
+  </figure>
+  <div class="layout">
+    <aside class="toc" aria-label="Nesta página"><p class="mono lbl">Nesta página</p><ol><li><a href="#visao">Visão geral</a></li><li><a href="#problema">Problema de engenharia</a></li><li><a href="#metodologia">Arquitetura e metodologia</a></li><li><a href="#ferramentas">Ferramentas e tecnologias</a></li><li><a href="#parametros">Parâmetros, equações e decisões técnicas</a></li><li><a href="#resultados">Resultados</a></li><li><a href="#validacao">Validação e testes</a></li><li><a href="#evidencia">Natureza da evidência</a></li><li><a href="#limitacoes">Limitações conhecidas</a></li><li><a href="#proximos">Próximas melhorias</a></li><li><a href="#links">Links</a></li></ol></aside>
+    <div class="article">
+      <section id="visao" class="asec" aria-labelledby="h-visao"><h2 id="h-visao">Visão geral</h2><p>Simulador de mercado que mede o risco comportamental do operador com um score auditável e aciona uma trava de ordens antes que o prejuízo se acumule.</p><p>Uma aplicação sem backend com sete módulos (gráficos, Anti-Tilt, fluxo institucional, estratégias, IR pré-trade, cripto e patrimônio), tour guiado de 9 passos, modo didático com glossário e uma aba que separa o que é real do que é simulado.</p></section>
+      <section id="problema" class="asec" aria-labelledby="h-problema"><h2 id="h-problema">Problema de engenharia</h2><p>Um estudo de pesquisadores da FGV, do Insper e da USP acompanhou 19.646 pessoas que começaram a operar mini-índice entre 2013 e 2015. Entre os 1.551 que persistiram por mais de 300 dias, 97% tiveram prejuízo. O gargalo é comportamento, não análise técnica.</p><p class="src">Fonte: <a href="https://repositorio.fgv.br/items/e87d04fc-4b4c-4a56-ab5a-1c84c1afde1b/full" target="_blank" rel="noopener noreferrer">Chague, De-Losso e Giovannetti · “Day trading for a living?”<span class="sr"> (abre em nova aba)</span></a></p></section>
+      <section id="metodologia" class="asec" aria-labelledby="h-metodologia"><h2 id="h-metodologia">Arquitetura e metodologia</h2><ul class="list"><li>Camada de regras em funções puras (score, imposto de renda, parser de estratégia e backtest), separada da interface.</li><li>Um único relógio de simulação (1 minuto simulado a cada 2 segundos) alimenta todos os módulos; as métricas são derivadas a cada renderização.</li><li>Interface em React que apenas desenha o resultado e explica a própria conta.</li><li>Publicação como site estático, sem servidor.</li></ul></section>
+      <section id="ferramentas" class="asec" aria-labelledby="h-ferramentas"><h2 id="h-ferramentas">Ferramentas e tecnologias</h2><ul class="tags big"><li>React 18</li><li>Vite 5</li><li>Tailwind 3</li><li>Recharts</li><li>node:test</li><li>Funções puras</li></ul></section>
+      <section id="parametros" class="asec" aria-labelledby="h-parametros"><h2 id="h-parametros">Parâmetros, equações e decisões técnicas</h2><div class="tbl-wrap" tabindex="0" role="region" aria-label="Tabela de parâmetros (role horizontalmente se necessário)"><table class="tbl"><caption class="sr">Parâmetros de projeto</caption><thead><tr><th scope="col">Parâmetro</th><th scope="col">Valor</th><th scope="col">Observação</th></tr></thead><tbody><tr><th scope="row">Overtrading</th><td class="mono">× 8</td><td>Ordens nos últimos 10 min simulados</td></tr><tr><th scope="row">Lote ↑ após perda</th><td class="mono">× 15</td><td>Aumentos de lote logo depois de uma ordem com prejuízo</td></tr><tr><th scope="row">Perdas seguidas</th><td class="mono">× 10</td><td>Perdas consecutivas até a última ordem</td></tr><tr><th scope="row">Ordens emocionais</th><td class="mono">× 4</td><td>Ordens fora do plano no dia</td></tr><tr><th scope="row">Faixas do score</th><td class="mono">Baixo &lt; 35 · Moderado &lt; 70 · Crítico ≥ 70</td><td>Teto de 100</td></tr><tr><th scope="row">Trava de segurança</th><td class="mono">15 min</td><td>Bloqueia ordens manuais e automáticas; pode ser acionada sozinha no nível Crítico</td></tr><tr><th scope="row">IR: swing trade</th><td class="mono">15%</td><td>Isento se o total vendido no mês for de até R$ 20.000</td></tr><tr><th scope="row">IR: day trade</th><td class="mono">20%</td><td>Sem isenção; prejuízos anteriores abatem a base</td></tr></tbody></table></div><div class="eq"><h3>Score de risco emocional</h3><p class="formula mono" tabindex="0" role="group" aria-label="Fórmula">score = min(100, 8·ordens + 15·lote↑ + 10·perdas + 4·emocionais)</p><dl><div><dt class="mono">ordens</dt><dd>ordens nos últimos 10 min</dd></div><div><dt class="mono">lote↑</dt><dd>aumentos de lote após perda</dd></div><div><dt class="mono">perdas</dt><dd>perdas consecutivas</dd></div><div><dt class="mono">emocionais</dt><dd>ordens fora do plano no dia</dd></div></dl><p class="mut">Exemplo exibido na demonstração: 7×8 + 3×15 + 0×10 + 6×4 = 125, limitado a 100 (Crítico). Os pesos ficam em um único objeto de configuração.</p></div><h3 class="sub3">Decisões técnicas</h3><ul class="list"><li><b>Score auditável, sem caixa-preta:</b> a conta é exibida na tela, linha por linha.</li><li><b>Lógica separada da interface:</b> entra número, sai número, o que permite testar sem navegador.</li><li><b>Um único relógio de simulação:</b> uma ordem nova altera o score, que pode acionar a trava, que bloqueia novas ordens.</li><li><b>Parser de estratégia por palavras-chave</b> (não é LLM), deliberadamente previsível, com contrato de retorno que permitiria trocá-lo por um modelo de linguagem no futuro.</li></ul></section>
+      <section id="resultados" class="asec" aria-labelledby="h-resultados"><h2 id="h-resultados">Resultados</h2><ul class="list"><li>Sete módulos integrados mais uma aba “Sobre” com real × simulado, arquitetura, roadmap e perguntas de entrevista.</li><li>Tour guiado de 9 passos e modo didático com glossário.</li><li>Backtest determinístico e reprodutível: a semente é derivada do texto da estratégia.</li></ul></section>
+      <section id="validacao" class="asec" aria-labelledby="h-validacao"><h2 id="h-validacao">Validação e testes</h2><ul class="list"><li>12 testes automatizados com node:test, sem navegador: formatação pt-BR, determinismo do gerador pseudoaleatório, score do Anti-Tilt (dia calmo, sequência emocional, teto de 100), custo do tilt, IR (isenção, compensação, day trade, prejuízo), tradutor de estratégia e backtest.</li><li>Eles verificam casos específicos; não provam a ausência de defeitos. Os módulos de interface não têm testes automatizados.</li></ul></section>
+      <section id="evidencia" class="asec" aria-labelledby="h-evidencia"><h2 id="h-evidencia">Natureza da evidência</h2><p class="mut">O que está comprovado no código e no material do projeto, separado por tipo. “Não declarado” significa que não há registro, e não que o tipo de evidência seja impossível.</p><div class="tbl-wrap" tabindex="0" role="region" aria-label="Tabela da natureza da evidência"><table class="tbl ev"><caption class="sr">Natureza da evidência por tipo</caption><tbody><tr><th scope="row">Calculado analiticamente</th><td><span class="chip ok">Documentado</span> Score e IR são fórmulas fechadas e determinísticas.</td></tr>
+<tr><th scope="row">Simulado computacionalmente</th><td><span class="chip ok">Documentado</span> Mercado, ordens, fluxo e cotações são sintéticos; o backtest é determinístico e sintético.</td></tr>
+<tr class="nd"><th scope="row">Medido experimentalmente</th><td><span class="chip">Não declarado</span></td></tr>
+<tr><th scope="row">Implementado</th><td><span class="chip ok">Documentado</span> Aplicação React com sete módulos, tour e modo didático.</td></tr>
+<tr><th scope="row">Testado automaticamente</th><td><span class="chip ok">Documentado</span> 12 testes sobre as funções puras em src/lib.</td></tr>
+<tr><th scope="row">Planejado, ainda não implementado</th><td><span class="chip ok">Documentado</span> Persistência do histórico, importação de ordens reais, backtest com candles históricos, parser com LLM e alertas push.</td></tr></tbody></table></div></section>
+      <section id="limitacoes" class="asec" aria-labelledby="h-limitacoes"><h2 id="h-limitacoes">Limitações conhecidas</h2><ul class="list warn"><li>Dados 100% sintéticos, sem conexão com a B3 ou corretoras; a interface informa isso.</li><li>O IR é simplificado (ações, sem corretagem, emolumentos, FIIs, ETFs, opções ou retenção na fonte) e não substitui um contador.</li><li>O backtest é sintético: demonstra o conceito, não prevê resultado.</li><li>O copiloto é baseado em regras e templates de texto, não em modelo de linguagem.</li><li>O estado não persiste ao recarregar a página.</li></ul></section>
+      <section id="proximos" class="asec" aria-labelledby="h-proximos"><h2 id="h-proximos">Próximas melhorias</h2><ul class="list"><li>Persistência do histórico.</li><li>Importação das ordens reais da corretora.</li><li>Backtest com candles históricos e custos.</li><li>Parser de estratégia com LLM (saída estruturada e validada), feed de mercado em tempo real e alertas push.</li></ul></section>
+      <section id="links" class="asec" aria-labelledby="h-links"><h2 id="h-links">Links</h2><ul class="links-col"><li><a class="btn primary" href="https://divinab3.vercel.app/" target="_blank" rel="noopener noreferrer">Abrir a demonstração ao vivo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="sr"> (abre em nova aba)</span></a></li></ul><p class="mut">Repositório e documentação: não publicados neste portfólio.</p></section>
+    </div>
+  </div>
+  <nav class="pn" aria-label="Outros projetos">
+    <a href="divina-wheel"><span class="mono lbl">Anterior</span>Divina Wheel</a>
+    <a class="r" href="divina-s58"><span class="mono lbl">Próximo</span>Divina S58</a>
+  </nav>
+  <section class="cta-end" aria-labelledby="t-end"><h2 id="t-end">Quer discutir este projeto?</h2><p>Posso detalhar decisões, premissas e limitações em uma conversa curta.</p><div class="actions"><a class="btn primary" href="mailto:jun9nho@gmail.com?subject=Sobre%20o%20projeto%20Divina%20B3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Enviar e-mail</a><a class="btn" href="../#contato">Outros contatos</a></div></section>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap foot-in">
+    <div><strong>José Francisco Gonçalves Junior</strong><br><span class="mut">Engenharia de Instrumentação, Automação e Robótica · UFABC</span></div>
+    <ul class="foot-links">
+      <li><a href="mailto:jun9nho@gmail.com">jun9nho@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/jfgonjr" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr"> (abre em nova aba)</span></a></li>
+    </ul>
+  </div>
+</footer>
+<script src="../js/main.js" defer></script>
+</body>
+</html>
